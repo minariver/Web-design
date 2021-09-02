@@ -133,6 +133,7 @@ img{
 /* 記事部分 */
 article{
   width: 200%;
+  order: 2;
 }
 
 .post-info{
@@ -182,9 +183,14 @@ article p{
   margin-bottom: 1rem;
 }
 
+.ad{
+  order: 1;
+}
+
 /* サイドバー */
 aside{
   width: 100%;
+  order: 3;
 }
 
 .sub-title{
@@ -217,7 +223,26 @@ aside p{
   color: #0bd;
 }
 
+/* MENU *
+-------------------------*/
 
+#menu{
+  background-image: url(../images/e813d72e5b7235d36c64b0968127f55c.jpeg);
+  min-height: 100vh;
+}
+
+.menu-content{
+  margin-top: 10%;
+}
+
+.menu-content .page-title{
+  text-align: center;
+}
+
+.menu-content p{
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
 
 /* フッター *
 -------------------------*/
