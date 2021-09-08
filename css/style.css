@@ -36,7 +36,7 @@ img{
 /* 見出し */
 .page-title{
   font-size: 5rem;
-  color: deeppink;
+  color: rgb(11, 10, 10);
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-weight: normal;
@@ -103,9 +103,7 @@ img{
 }
 
 #home{
-  background-image: url(../images/e813d72e5b7235d36c64b0968127f55c.jpeg), linear-gradient(#c9ffbf, #ffafbd);
-  background-color: #0bd;
-  background-blend-mode: hard-light;
+  background-image: linear-gradient(#0bf8dc, #f3e709);
   min-height: 100vh;
 }
 
@@ -116,7 +114,7 @@ img{
 /* NEWS *
 -------------------------*/
 #news{
-  background-image: url(../images/DhFduw8VAAE5PBi.jpeg);
+  background-image: linear-gradient(#f110ae, #0de910);
   margin-bottom: 40px;
 }
 
@@ -227,7 +225,7 @@ aside p{
 -------------------------*/
 
 #menu{
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  background-image: linear-gradient(#0fb6ee, #e0e70e);
   min-height: 100vh;
 }
 
@@ -250,6 +248,51 @@ aside p{
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 6%;
   margin-bottom: 50px;
+}
+
+/* CONTACT *
+-------------------------*/
+#contact{
+  background-image: linear-gradient(#f110ae, #0de910);
+  min-height: 100vh;
+}
+
+form div{
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  background: rgba( 255, 255, 255, 5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
 }
 
 /* フッター *
